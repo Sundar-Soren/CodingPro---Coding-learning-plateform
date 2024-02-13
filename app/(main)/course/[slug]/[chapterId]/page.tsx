@@ -15,7 +15,11 @@ import ChapterManage from "../../_components/chapter-manager";
 import { useStore } from "@/hooks/store";
 import { useTranslation } from "react-i18next";
 
-const page = ({ params }: { params: { slug: string; chapterId: string } }) => {
+const MyComponent = ({
+  params,
+}: {
+  params: { slug: string; chapterId: string };
+}) => {
   const [course, setCourse] = useState<Course>();
   const [videoUrl, setVideoUrl] = useState<string>("");
   const [getTheCurrentCahpter, setGetTheCurrentCahpter] = useState<Section>();
@@ -104,4 +108,4 @@ const page = ({ params }: { params: { slug: string; chapterId: string } }) => {
   );
 };
 
-export default page;
+export default MyComponent;
