@@ -19,6 +19,8 @@ const page = ({ params }: { params: { slug: string; chapterId: string } }) => {
   const [course, setCourse] = useState<Course>();
   const [videoUrl, setVideoUrl] = useState<string>("");
   const [getTheCurrentCahpter, setGetTheCurrentCahpter] = useState<Section>();
+  const { getCourseCompletionPercentage } = useStore();
+  const { t } = useTranslation();
 
   useEffect(() => {
     const selectedCourse = dummyCourses.find(
@@ -37,9 +39,6 @@ const page = ({ params }: { params: { slug: string; chapterId: string } }) => {
       }
     }
   }, [params.slug, params.chapterId]);
-
-  const { getCourseCompletionPercentage } = useStore();
-  const { t } = useTranslation();
 
   return (
     <div className="flex gap-5">
