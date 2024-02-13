@@ -8,7 +8,7 @@ const Settings = () => {
           Settings are in progress...
         </p>
         <p className="text-sm text-gray-500">
-          We&lsquo;re working on making your experience even better!
+          We are working on making your experience even better!
         </p>
       </div>
     </div>
