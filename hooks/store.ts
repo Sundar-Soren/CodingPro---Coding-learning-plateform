@@ -15,7 +15,14 @@ interface Search {
 }
 
 export const useStore = create<Search>((set) => {
-  const storedUserProgress = localStorage.getItem("userProgress");
+  const isClientSide = typeof window !== "undefined";
+
+  // Initialize userProgress based on localStorage or an empty object
+  const storedUserProgress = isClientSide
+    ? localStorage.getItem("userProgress")
+    : null;
+
+  // const storedUserProgress = localStorage.getItem("userProgress");
   const initialUserProgress = storedUserProgress
     ? JSON.parse(storedUserProgress)
     : {};
