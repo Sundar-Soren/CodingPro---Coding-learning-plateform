@@ -45,23 +45,25 @@ const MyComponent = ({
   }, [params.slug, params.chapterId]);
 
   return (
-    <div className="flex gap-5">
-      <div className="w-3/5">
+    <div className="lg:flex space-y-5 gap-5 pb-5">
+      <div className="w-full lg:w-3/5">
         <div>
-          <Suspense fallback="Loading..">
+          <Suspense fallback="Loading...">
             <VideoPlayer videoUrl={videoUrl} />
           </Suspense>
         </div>
         <div className="mt-2">
           {course && (
-            <Card>
-              <div className="flex gap-1 items-center font-medium mt-1">
+            <Card className="p-2">
+              <div className="flex gap-1 items-center font-medium mt-2">
                 <BookOpen className="h-5 w-5" />
                 <p>
                   {course?.sections.length} {t("common.chapters")}
                 </p>
               </div>
-              <CardTitle>{t(`courses.${course?.id - 1}.title`)}</CardTitle>
+              <CardTitle className="my-1">
+                {t(`courses.${course?.id - 1}.title`)}
+              </CardTitle>
               <CardDescription className="mt-2">
                 {t(`courses.${course?.id - 1}.description`)}
               </CardDescription>
@@ -85,7 +87,7 @@ const MyComponent = ({
           )}
         </div>
       </div>
-      <div className="w-2/5">
+      <div className=" w-full lg:w-2/5">
         {course && (
           <div>
             <h1 className="font-semibold text-lg">
