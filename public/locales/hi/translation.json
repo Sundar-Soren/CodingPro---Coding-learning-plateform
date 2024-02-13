@@ -1,0 +1,151 @@
+{
+  "common": {
+    "chapters": "अध्याय",
+    "pcompleted": "पूर्ण",
+    "Courses": "कोर्सेस",
+    "Dashboard": "डैशबोर्ड",
+    "Settings": "सेटिंग्स",
+    "progress": "प्रगति",
+    "markAsCompleted": "पूर्ण चिह्नित करें",
+    "markAsNotCompleted": "अधूरा चिह्नित करें"
+  },
+  "searchPlaceholder": "शीर्षक, विवरण, अध्याय या पाठ से पाठ्यक्रम खोजें...",
+  "greeting": "नमस्ते!",
+
+  "courses": [
+    {
+      "id": 1,
+      "title": "प्रोग्रामिंग का परिचय",
+      "description": "इस परिचयात्मक कोर्स के साथ प्रोग्रामिंग के मौलिक तत्व सीखें।",
+      "sections": [
+        {
+          "id": 101,
+          "title": "शुरुआत करना",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "lessons": [
+            "अपने विकास वातावरण को सेट करें",
+            "मौलिक प्रोग्रामिंग अवधारणाएं"
+          ]
+        },
+        {
+          "id": 102,
+          "title": "चर और डेटा प्रकार",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "lessons": ["चरों को समझना", "स्ट्रिंग्स और नंबर्स के साथ काम करना"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "वेब विकास के मौलिक सिद्धांत",
+      "description": "इस शुरुआती योग्य कोर्स में वेब विकास की आधारभूत बातें जानें।",
+      "sections": [
+        {
+          "id": 201,
+          "title": "एचटीएमएल के मौलिक सिद्धांत",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "lessons": ["एचटीएमएल का परिचय", "एचटीएमएल दस्तावेज का संरचना"]
+        },
+        {
+          "id": 202,
+          "title": "सीएसएस स्टाइलिंग",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "lessons": ["एचटीएमएल तत्वों को सजाना", "सीएसएस लेआउट"]
+        },
+        {
+          "id": 203,
+          "title": "जावास्क्रिप्ट मौलिक बातें",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "lessons": ["जावास्क्रिप्ट का परिचय", "नियंत्रण प्रवाह और फ़ंक्शन्स"]
+        },
+        {
+          "id": 204,
+          "title": "प्रतिसारी डिज़ाइन",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "lessons": ["मीडिया क्वेरीज़", "फ्लेक्सबॉक्स और ग्रिड"]
+        },
+        {
+          "id": 205,
+          "title": "फ्रंटएंड फ़्रेमवर्क्स",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "lessons": ["रीऐक्ट का परिचय", "आंगुलर vs व्यू vs रीऐक्ट"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "जावास्क्रिप्ट की उन्नत",
+      "description": "जावास्क्रिप्ट में गहराई से गहरा जाएं और उन्नत अवधारणाएँ और फ़्रेमवर्क्स का अन्वेषण करें।",
+      "sections": [
+        {
+          "id": 301,
+          "title": "क्लोज़र्स और स्कोप्स",
+          "videoLink": "https://example.com/closures-and-scopes-video",
+          "lessons": ["क्लोज़र्स को समझना", "लेक्सिकल स्कोपिंग"]
+        },
+        {
+          "id": 302,
+          "title": "प्रमिसेस और एसिंक/अवेट",
+          "videoLink": "https://example.com/promises-and-async-await-video",
+          "lessons": ["प्रमिसेस के साथ काम करना", "एसिंक/अवेट सिंटैक्स"]
+        },
+        {
+          "id": 303,
+          "title": "ईएस6+ फीचर्स",
+          "videoLink": "https://example.com/es6-features-video",
+          "lessons": ["एरो फ़ंक्शन्स", "डीस्ट्रक्चरिंग", "टेम्पलेट लिटरल्स"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "रीऐक्ट.जेएस के मौलिक सिद्धांत",
+      "description": "रीऐक्ट.जेएस के मौलिक तत्वों की खोज करें और गतिशील उपयोगकर्ता इंटरफेस बनाएं।",
+      "sections": [
+        {
+          "id": 401,
+          "title": "रीऐक्ट कंपोनेंट्स का परिचय",
+          "videoLink": "https://example.com/react-components-video",
+          "lessons": ["कंपोनेंट्स को समझना", "प्रॉप्स और स्टेट"]
+        },
+        {
+          "id": 402,
+          "title": "रीऐक्ट में स्थिति प्रबंधन",
+          "videoLink": "https://example.com/react-state-management-video",
+          "lessons": ["useState हुक का उपयोग करना", "संदर्भ API"]
+        },
+        {
+          "id": 403,
+          "title": "रीऐक्ट राउटर और नेविगेशन",
+          "videoLink": "https://example.com/react-router-video",
+          "lessons": ["पृष्ठों के बीच नेविगेट करना", "डायनामिक राउटिंग"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "पायथन प्रोग्रामिंग की मौलिक बातें",
+      "description": "पायथन प्रोग्रामिंग भाषा और इसके अनुप्रयोगों की मौलिक बातें सीखें।",
+      "sections": [
+        {
+          "id": 501,
+          "title": "पायथन सिंटैक्स का परिचय",
+          "videoLink": "https://example.com/python-syntax-video",
+          "lessons": ["चर और डेटा प्रकार", "नियंत्रण प्रवाह"]
+        },
+        {
+          "id": 502,
+          "title": "फ़ंक्शन्स और मॉड्यूल्स",
+          "videoLink": "https://example.com/python-functions-modules-video",
+          "lessons": ["फ़ंक्शन्स की परिभाषा", "मॉड्यूल्स को आयात करना"]
+        },
+        {
+          "id": 503,
+          "title": "पायथन में फ़ाइल हैंडलिंग",
+          "videoLink": "https://example.com/python-file-handling-video",
+          "lessons": ["फ़ाइलें पढ़ना और लिखना", "CSV फ़ाइलों के साथ काम करना"]
+        }
+      ]
+    }
+  ]
+}

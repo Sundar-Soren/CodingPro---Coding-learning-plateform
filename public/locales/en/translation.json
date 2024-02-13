@@ -1,0 +1,156 @@
+{
+  "common": {
+    "chapters": "Chapters",
+    "pcompleted": "completed",
+    "Courses": "Courses",
+    "Dashboard": "Dashboard",
+    "Settings": "Settings",
+    "progress": "Progress",
+    "markAsCompleted": "Mark as Completed",
+    "markAsNotCompleted": "Mark as Not Completed"
+  },
+  "searchPlaceholder": "Search courses by title, description, chapter, or lesson...",
+  "greeting": "Hello!",
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to Programming",
+      "description": "Learn the fundamentals of programming with this introductory course.",
+      "sections": [
+        {
+          "id": 101,
+          "title": "Getting Started",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "lessons": [
+            "Setting Up Your Development Environment",
+            "Basic Programming Concepts"
+          ]
+        },
+        {
+          "id": 102,
+          "title": "Variables and Data Types",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "lessons": [
+            "Understanding Variables",
+            "Working with Strings and Numbers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Web Development Basics",
+      "description": "Explore the essentials of web development in this beginner-friendly course.",
+      "sections": [
+        {
+          "id": 201,
+          "title": "HTML Fundamentals",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "lessons": ["Introduction to HTML", "Structuring HTML Documents"]
+        },
+        {
+          "id": 202,
+          "title": "CSS Styling",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "lessons": ["Styling HTML Elements", "CSS Layouts"]
+        },
+        {
+          "id": 203,
+          "title": "JavaScript Basics",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "lessons": [
+            "Introduction to JavaScript",
+            "Control Flow and Functions"
+          ]
+        },
+        {
+          "id": 204,
+          "title": "Responsive Design",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "lessons": ["Media Queries", "Flexbox and Grid"]
+        },
+        {
+          "id": 205,
+          "title": "Frontend Frameworks",
+          "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "lessons": ["Introduction to React", "Angular vs. Vue vs. React"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Advanced JavaScript",
+      "description": "Dive deeper into JavaScript and explore advanced concepts and frameworks.",
+      "sections": [
+        {
+          "id": 301,
+          "title": "Closures and Scopes",
+          "videoLink": "https://example.com/closures-and-scopes-video",
+          "lessons": ["Understanding Closures", "Lexical Scoping"]
+        },
+        {
+          "id": 302,
+          "title": "Promises and Async/Await",
+          "videoLink": "https://example.com/promises-and-async-await-video",
+          "lessons": ["Working with Promises", "Async/Await Syntax"]
+        },
+        {
+          "id": 303,
+          "title": "ES6+ Features",
+          "videoLink": "https://example.com/es6-features-video",
+          "lessons": ["Arrow Functions", "Destructuring", "Template Literals"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "React.js Fundamentals",
+      "description": "Explore the core concepts of React.js and build dynamic user interfaces.",
+      "sections": [
+        {
+          "id": 401,
+          "title": "Introduction to React Components",
+          "videoLink": "https://example.com/react-components-video",
+          "lessons": ["Understanding Components", "Props and State"]
+        },
+        {
+          "id": 402,
+          "title": "State Management in React",
+          "videoLink": "https://example.com/react-state-management-video",
+          "lessons": ["Using useState Hook", "Context API"]
+        },
+        {
+          "id": 403,
+          "title": "React Router and Navigation",
+          "videoLink": "https://example.com/react-router-video",
+          "lessons": ["Navigating Between Pages", "Dynamic Routing"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Python Programming Basics",
+      "description": "Learn the basics of Python programming language and its applications.",
+      "sections": [
+        {
+          "id": 501,
+          "title": "Introduction to Python Syntax",
+          "videoLink": "https://example.com/python-syntax-video",
+          "lessons": ["Variables and Data Types", "Control Flow"]
+        },
+        {
+          "id": 502,
+          "title": "Functions and Modules",
+          "videoLink": "https://example.com/python-functions-modules-video",
+          "lessons": ["Defining Functions", "Importing Modules"]
+        },
+        {
+          "id": 503,
+          "title": "File Handling in Python",
+          "videoLink": "https://example.com/python-file-handling-video",
+          "lessons": ["Reading and Writing Files", "Working with CSV Files"]
+        }
+      ]
+    }
+  ]
+}
